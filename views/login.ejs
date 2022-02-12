@@ -1,0 +1,28 @@
+<%- include('partials/header.ejs') %> 
+<div style="text-align: center;">
+    <h2>Login Page</h2>
+
+</div>
+
+    <div class="login_card" style="text-align: center;">
+        <form action="/login" method="POST">
+            <label  for="">Email</label>
+            <br>
+            <input type="email" name="email" id="">
+            <br>
+            <br>
+            <label for="">Password</label>
+            <br>
+            <input type="password" name="password" id="">
+            <br>
+            <br>
+            <button class="btn btn-success" type="submit">SignIn</button>
+        </form>
+        <h4>Not Have an Account?</h4>
+    <a href="/register">Register</a>
+    </div>
+
+
+
+
+<%- include('partials/footer.ejs') %> 
